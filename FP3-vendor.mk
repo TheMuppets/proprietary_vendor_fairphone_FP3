@@ -350,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.0.so \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.1.so \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@2.0.so \
+    vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.nxp.nxpnfclegacy@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.nxpnfclegacy@1.0.so \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/fairphone/FP3/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
@@ -963,6 +964,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_preview.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_snapshot.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_snapshot_pro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_snapshot_pro.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_video.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_postproc.so \
@@ -999,6 +1001,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_preview.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot_pro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot_pro.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot_upscale.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_video.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_default_preview_3a.so \
