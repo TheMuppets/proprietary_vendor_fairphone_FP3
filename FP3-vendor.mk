@@ -463,7 +463,6 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/fairphone/FP3/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/fairphone/FP3/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
-    vendor/fairphone/FP3/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
     vendor/fairphone/FP3/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/fairphone/FP3/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/fairphone/FP3/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
@@ -617,7 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
-    vendor/fairphone/FP3/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/fairphone/FP3/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -945,6 +943,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_preview.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_snapshot.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_snapshot_pro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_snapshot_pro.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_cpp_video.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5k3p9sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p9sp_postproc.so \
@@ -981,6 +980,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_liveshot.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_preview.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot.so \
+    vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot_pro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot_pro.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_snapshot_upscale.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_cpp_video.so \
     vendor/fairphone/FP3/proprietary/vendor/lib/libchromatix_s5kgm1sp_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5kgm1sp_default_preview_3a.so \

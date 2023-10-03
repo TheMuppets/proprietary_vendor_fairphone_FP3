@@ -74,10 +74,14 @@ special_mode_mask values:
     SENSOR_SPECIAL_MODE_ZOOM_UPSCALE = 2,
     SENSOR_SPECIAL_MODE_ZOOM_DOWNSCALE = 4,
     SENSOR_SPECIAL_MODE_OIS_CAPTURE = 8,
+    SENSOR_SPECIAL_MODE_PRO = 16,
 -->
 
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
+    <ChromatixName special_mode_mask="PRO">
+      <CPPSnapshot>s5k3p9sp_cpp_snapshot_pro</CPPSnapshot>
+    </ChromatixName>
     <ChromatixName special_mode_mask="0">
       <ISPCommon>s5k3p9sp_common</ISPCommon>
       <PostProc>s5k3p9sp_postproc</PostProc>
