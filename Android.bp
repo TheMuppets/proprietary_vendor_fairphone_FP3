@@ -106,17 +106,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "fairphone",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "fairphone",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -417,12 +406,6 @@ dex_import {
 	name: "UxPerformance",
 	owner: "fairphone",
 	jars: ["proprietary/framework/UxPerformance.jar"],
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "fairphone",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 dex_import {
