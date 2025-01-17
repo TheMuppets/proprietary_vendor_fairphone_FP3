@@ -1849,7 +1849,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     vendor.qti.latency-V2.1-java \
     vendor.qti.voiceprint-V1.0-java \
-    manifest_android.hardware.drm-service.widevine \
-    vendor.nxp.hardware.nfc@2.0-service \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    manifest_android.hardware.drm-service.widevine.xml \
+    vendor.nxp.hardware.nfc@2.0-service.xml \
+    vendor.qti.gnss@4.0-service.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml
