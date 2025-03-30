@@ -914,23 +914,23 @@ PRODUCT_PACKAGES += \
     libmmqjpegdma \
     libois_bu63165 \
     libois_lc898122 \
-    libpn547_fw \
-    libpn548ad_fw \
-    libpn551_fw \
-    libpn553_fw \
-    libpn557_fw \
     libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libsmwrapper \
-    libsn100u_fw \
     libsurround_3mic_proc \
     libvqzip \
     libwvaidl \
     fingerprint.FP3 \
     libgarden_haltests_e2e \
+    libpn547_fw \
+    libpn548ad_fw \
+    libpn551_fw \
+    libpn553_fw \
+    libpn557_fw \
     libremosaiclib \
+    libsn100u_fw \
     libtzdrmgenprov \
     libadsp_fd_skel \
     libapps_mem_heap \
